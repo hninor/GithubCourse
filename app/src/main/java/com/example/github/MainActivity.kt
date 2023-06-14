@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val etSaludar = findViewById<EditText>(R.id.etNombre)
         val tvSaludar = findViewById<TextView>(R.id.textView)
         btn_click_me.setOnClickListener {
-            tvSaludar.text = "Hello ${etSaludar.text}!"
+            tvSaludar.text = "Hello ${etSaludar.text}! How are you?"
         }
 
     }
